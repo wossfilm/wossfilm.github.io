@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background: black;
+}
+
+
+/* .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin: 20px auto;
+    }*/
+.swiper-slide {
+	text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    }
+ .append-buttons {
+    text-align: center;
+    argin-top: 20px;
+    }
+ .append-buttons a {
+    display: inline-block;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+.gallery-top {
+	position:absolute;
+	right:0;
+	top:0;
+    height: 100%;
+    width: 80%;
+	margin:0;
+	transition: width 0.4s;
+}
+.idle{
+	width:100%;
+}
+.gallery-thumbs {
+	position:absolute;
+	left:0;
+	top:0;
+	margin:0;
+    height: 100%;
+	width:20%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.gallery-thumbs .swiper-slide {
+    height: 100%;
+    opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+    transition: 1s;
+}
+.thumb{
+	opacity:0.4;
+	transition: 1s;
+}
+.thumb:hover{
+	opacity:1;
+	transform: scale(1.1,1.1);
+}
